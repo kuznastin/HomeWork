@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TrainerInt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrainerInt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/TrainerInt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -21,10 +21,120 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AnimalInt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork/AnimalInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnimalAbs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork/AnimalAbs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnimalDog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork/AnimalDog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Master.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HomeWork/Master.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/HomeWork" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/HomeWork">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>HomeWork</OriginalElement>
+              <nodes>
+                <node x="400.0" y="123.0">HomeWork.AnimalAbs</node>
+                <node x="0.0" y="323.0">HomeWork.Trainer</node>
+                <node x="105.0" y="290.0">HomeWork.Master</node>
+                <node x="400.0" y="291.0">HomeWork.AnimalDog</node>
+                <node x="11.25" y="0.0">HomeWork.TrainerInt</node>
+                <node x="400.0" y="0.0">HomeWork.AnimalInt</node>
+                <node x="11.25" y="145.0">HomeWork.TrainerAbs</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="HomeWork.Trainer" target="HomeWork.TrainerAbs">
+                  <point x="0.0" y="-14.5" />
+                  <point x="42.5" y="265.0" />
+                  <point x="73.75" y="265.0" />
+                  <point x="-62.5" y="47.5" />
+                </edge>
+                <edge source="HomeWork.TrainerAbs" target="HomeWork.TrainerInt">
+                  <point x="0.0" y="-47.5" />
+                  <point x="0.0" y="47.5" />
+                </edge>
+                <edge source="HomeWork.AnimalAbs" target="HomeWork.AnimalInt">
+                  <point x="0.0" y="-59.0" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="HomeWork.Master" target="HomeWork.TrainerAbs">
+                  <point x="0.0" y="-47.5" />
+                  <point x="230.0" y="265.0" />
+                  <point x="198.75" y="265.0" />
+                  <point x="62.5" y="47.5" />
+                </edge>
+                <edge source="HomeWork.AnimalDog" target="HomeWork.AnimalAbs">
+                  <point x="0.0" y="-36.5" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="198.0" y="169.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TrainerAbs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/TrainerAbs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="85">
               <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
               <folding>
                 <element signature="e#151#152#0" expanded="true" />
@@ -46,8 +156,8 @@
       <file leaf-file-name="Trainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeWork/Trainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -66,10 +176,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HomeWork/TrainerForDog.java" />
-        <option value="$PROJECT_DIR$/src/HomeWork/Trainer.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/TrainerInt.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/HomeWork/TrainerAbs.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/Animal.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/PetAbs.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/AnimalInt.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/AnimalAbs.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/Master.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/Dog.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/AnimalDog.java" />
+        <option value="$PROJECT_DIR$/src/HomeWork/Trainer.java" />
       </list>
     </option>
   </component>
@@ -82,7 +199,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -112,6 +229,12 @@
             </path>
             <path>
               <item name="HomeWork(22.06)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeWork(22.06)" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeWork(22.06)" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -126,6 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -207,15 +331,16 @@
       <option name="presentableId" value="Default" />
       <updated>1529704492843</updated>
       <workItem from="1529704515775" duration="4450000" />
-      <workItem from="1529761670092" duration="461000" />
+      <workItem from="1529761670092" duration="2655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4911000" />
+    <option name="totallyTimeSpent" value="7105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -368,20 +493,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWork/TrainerForDog.java" />
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/TrainerInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeWork/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -389,14 +500,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/TrainerInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/AnimalInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/AnimalAbs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeWork/TrainerAbs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="85">
           <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
           <folding>
             <element signature="e#151#152#0" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/AnimalDog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWork/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -406,25 +579,43 @@
           <ID>JAVA</ID>
           <OriginalElement>HomeWork</OriginalElement>
           <nodes>
-            <node x="82.5" y="290.0">HomeWork.Trainer</node>
-            <node x="0.0" y="0.0">HomeWork.TrainerInt</node>
-            <node x="0.0" y="145.0">HomeWork.TrainerAbs</node>
+            <node x="400.0" y="123.0">HomeWork.AnimalAbs</node>
+            <node x="0.0" y="323.0">HomeWork.Trainer</node>
+            <node x="105.0" y="290.0">HomeWork.Master</node>
+            <node x="400.0" y="291.0">HomeWork.AnimalDog</node>
+            <node x="11.25" y="0.0">HomeWork.TrainerInt</node>
+            <node x="400.0" y="0.0">HomeWork.AnimalInt</node>
+            <node x="11.25" y="145.0">HomeWork.TrainerAbs</node>
           </nodes>
           <notes />
           <edges>
             <edge source="HomeWork.Trainer" target="HomeWork.TrainerAbs">
               <point x="0.0" y="-14.5" />
-              <point x="0.0" y="47.5" />
+              <point x="42.5" y="265.0" />
+              <point x="73.75" y="265.0" />
+              <point x="-62.5" y="47.5" />
             </edge>
             <edge source="HomeWork.TrainerAbs" target="HomeWork.TrainerInt">
               <point x="0.0" y="-47.5" />
               <point x="0.0" y="47.5" />
             </edge>
+            <edge source="HomeWork.AnimalAbs" target="HomeWork.AnimalInt">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="HomeWork.Master" target="HomeWork.TrainerAbs">
+              <point x="0.0" y="-47.5" />
+              <point x="230.0" y="265.0" />
+              <point x="198.75" y="265.0" />
+              <point x="62.5" y="47.5" />
+            </edge>
+            <edge source="HomeWork.AnimalDog" target="HomeWork.AnimalAbs">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="59.0" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="46.0" y="262.0" />
-          <SelectedNodes>
-            <node>HomeWork.TrainerAbs</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="1.0" x="198.0" y="169.5" />
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Methods</Category>
